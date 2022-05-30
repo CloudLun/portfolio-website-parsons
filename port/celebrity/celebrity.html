@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Internet Celebrity | Lun Hung</title>
+
+    <!-- JS Library -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <link rel="stylesheet" href="../../scss/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="name" onclick="location.href='../../works.html'">LUNHUNG</div>
+    </header>
+    <div id="celebrity">
+        <div class="celebrity">
+            <h1 class="celebrity-title">New Era of Internet Celebrity</h1>
+            <select name="" id="celebrity-type">
+                <option value="youtuber">Youtuber</option>
+                <option value="entertainer">Entertainer</option>
+                <option value="fashion">Fashion Icon</option>
+            </select>
+            <div class="celebrity-intro">
+                <p>The Internet celebrity’ has become a cultural phenomenon which changes online behavior, especially in
+                    the younger generation. Instead of being fans of entertainers like actors or movie stars, they spend
+                    time watching popular YouTube channels. This infographic is designed to show types of online
+                    celebrities followed by people of different ages.</p>
+            </div>
+            <div class="celebrity-legend">
+                <div class="celebrity-legend-title">
+                    Types of Celebrities People <br/> Followed on the Internet
+                </div>
+                <div class="celebrity-legend-age">
+                    <span id="first"></span>
+                    <p>16-25</p>
+                    <span id="second"></span>
+                    <p>26-35</p>
+                    <span id="third"></span>
+                    <p>36-45</p>
+                </div>
+            </div>
+            <div id="celebrity-line-chart"></div>
+        </div>
+        <div id="celebrity-circle-chart"></div>
+    </div>
+
+    <!-- <script src="./line-chart.js"></script> -->
+    <script src="./chart.js"></script>
+
+
+</body>

@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    #map {
+        width: 100%;
+        height: 100%;
+        .leaflet-control-zoom {
+            // position: absolute;
+            // top: 5px;
+            margin-left: 23px;
+            border-radius: 5px;
+        }
+    }
+    .filter-container {
+        position: absolute;
+        top: 130px;
+        left: 40px;
+        padding: 10px 10px;
+        width: 380px;
+        height: 200px;
+        // background-color: #fff;
+        .filter-day {
+            // position: absolute;
+            // top: 15px;
+            // right: 25px;
+            display: flex;
+            .day,
+            .night,
+            .all {
+                padding: 10px 20px;
+                width: 150px;
+                font-size: 18px;
+                background: #343a40;
+                border: 0;
+                color: #d3d3d3;
+                cursor: pointer;
+                &:hover {
+                    background-color: #ff5a00;
+                    color: #d3d3d3;
+                }
+            }
+            .clicked {
+                background-color: #dc2c18;
+                color: #d3d3d3;
+            }
+        }
+    }
+    .timeline-container {
+        z-index: 100;
+        position: absolute;
+        top: 200px;
+        right: 50px;
+        width: 220px;
+        opacity: 0;
+        .timeline-month {
+            // margin-bottom: 10px;
+            font-size: 18px;
+            color: #d3d3d3;
+            h1 {
+                margin: 0;
+                padding: 0;
+                letter-spacing: 0.5px;
+            }
+        }
+        &[data-visible="true"] {
+            opacity: 1;
+        }
+        // .timeline-pic {
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: start;
+        //     .ticks {
+        //         position: absolute;
+        //         display: block;
+        //         width: 15px;
+        //         height: 15px;
+        //         background-color: #dc2c18;
+        //         border-radius: 50%;
+        //     }
+        //     .timeline {
+        //         display: block;
+        //         width: 240px;
+        //         height: 3px;
+        //         background-color: #d3d3d3;
+        //     }
+        // }
+        .timeline-btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            .backToAll,
+            .play {
+                padding: 5px 10px;
+                width: 95px;
+                text-align: center;
+                color: #d3d3d3;
+                border: 2px solid #d3d3d3;
+                letter-spacing: 0.5px;
+                cursor: pointer;
+                &:hover {
+                    color: #dc2c18;
+                    border-color: #dc2c18;
+                }
+            }
+        }
+    }
+    .legend-container {
+        .legend-index {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 130px;
+            right: 50px;
+            width: 220px;
+            font-size: 12px;
+            font-weight: normal;
+            color: #d3d3d3;
+        }
+        .legend-color-palette {
+            display: flex;
+            position: absolute;
+            top: 140px;
+            right: 50px;
+            margin-top: 20px;
+            width: 220px;
+            height: 400px;
+            span {
+                display: block;
+                width: 20%;
+                height: 20px;
+            }
+            .one {
+                background-color: #ffed85;
+            }
+            .two {
+                background-color: #ffd53e;
+            }
+            .three {
+                background-color: #ffac00;
+            }
+            .four {
+                background-color: #ff5a00;
+            }
+            .five {
+                background-color: #dc2c18;
+            }
+        }
+    }
+    .chart-container {
+        display: block;
+        border: 1px solid green;
+        width: 100%;
+        height: 100%;
+        .month-chart-container {
+            position: absolute;
+            top: 210px;
+            left: 50px;
+            padding: 10px 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            &[data-visible="true"] {
+                opacity: 1;
+            }
+        }
+        .day-chart-container,
+        .night-chart-container {
+            position: absolute;
+            top: 220px;
+            left: 50px;
+            padding: 10px 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            &[data-visible="true"] {
+                opacity: 1;
+            }
+        }
+        .day-type-chart-container,
+        .night-type-chart-container {
+            position: absolute;
+            top: 220px;
+            left: 50px;
+            padding: 10px 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            &[data-visible="true"] {
+                opacity: 1;
+            }
+        }
+    }
+}

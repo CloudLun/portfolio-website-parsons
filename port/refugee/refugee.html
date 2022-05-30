@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Trajectories of Refugees | Lun Hung</title>
+    <link rel="stylesheet" href="../../scss/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="name" onclick="location.href='../../works.html'">LUNHUNG</div>
+    </header>
+    <div id="refugees">
+        <div id="ref-viz"></div>
+        <div class="ref-content">
+            <h1 class="title">Trajectories of<br> Refugees</h1>
+            <div class="introduction">
+                <h2>Introduction</h2>
+                <p>The visualization is about showing the trajectories of refugees all around the world. The dataset
+                    includes the countries refugees ran out and the countries refugees moved in. To do the networking
+                    visualization, I turned them into source and target nodes.Then using links to connect
+                    them.</p>
+            </div>
+            <div class="ref-legend">
+                <div class="section">
+                    <div class="circle" id="one"></div>
+                    <div class="1">Syrian Arab Rep.</div>
+                </div>
+                <div class="section">
+                    <div class="circle" id="two"></div>
+                    <div class="2">Venezuela</div>
+                </div>
+                <div class="section">
+                    <div class="circle" id="three"></div>
+                    <div class="3">Afghanistan</div>
+                </div>
+                <div class="section">
+                    <div class="circle" id="four"></div>
+                    <div class="4">South Sudan</div>
+                </div>
+                <div class="section">
+                    <div class="circle" id="five"></div>
+                    <div class="5">Myanmar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="./app.js"></script>
+</body>

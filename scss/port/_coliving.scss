@@ -1,0 +1,26 @@
+#coliving {    
+    .banner {
+        height: 340px;
+        margin-top: 90px;
+    }
+    .co-topic {
+        // border: 1px solid red;
+
+        padding: 50px 0 0 0;
+        &__title {
+            margin: 0 0 5px 0;
+            font-size: 48px;
+            font-weight: 500;
+        }
+    }
+
+    .co-intro {
+        // border: 1px solid red;
+        padding: 60px 0 0 0;
+    }
+    .links {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1px;
+    }
+}

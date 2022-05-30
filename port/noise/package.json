@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "leaflet.timeline.control": "^1.0.2"
+  }
+}

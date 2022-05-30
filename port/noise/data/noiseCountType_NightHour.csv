@@ -1,0 +1,61 @@
+,complaint_type,hour,noise_count
+12,Banging,18,4055
+13,Banging,19,4731
+14,Banging,20,5513
+15,Banging,21,6638
+16,Banging,22,7733
+17,Banging,23,8076
+18,Banging,0,6509
+19,Banging,1,4273
+20,Banging,2,2829
+21,Banging,3,2088
+22,Banging,4,1614
+23,Banging,5,1545
+48,Car/Truck Music,18,3145
+49,Car/Truck Music,19,4044
+50,Car/Truck Music,20,5080
+51,Car/Truck Music,21,5796
+52,Car/Truck Music,22,6885
+53,Car/Truck Music,23,6875
+54,Car/Truck Music,0,5658
+55,Car/Truck Music,1,3686
+56,Car/Truck Music,2,2379
+57,Car/Truck Music,3,1487
+58,Car/Truck Music,4,1099
+59,Car/Truck Music,5,629
+60,Construction,18,642
+61,Construction,19,737
+62,Construction,20,869
+63,Construction,21,1202
+64,Construction,22,1593
+65,Construction,23,1496
+66,Construction,0,1322
+67,Construction,1,1031
+68,Construction,2,541
+69,Construction,3,34
+70,Construction,4,286
+71,Construction,5,243
+107,Loud Music,18,19064
+108,Loud Music,19,24675
+109,Loud Music,20,32734
+110,Loud Music,21,43509
+111,Loud Music,22,59545
+112,Loud Music,23,61272
+113,Loud Music,0,51815
+114,Loud Music,1,35421
+115,Loud Music,2,21854
+116,Loud Music,3,13746
+117,Loud Music,4,8703
+118,Loud Music,5,5015
+119,Loud Talking,18,2163
+120,Loud Talking,19,2664
+121,Loud Talking,20,3019
+122,Loud Talking,21,3885
+123,Loud Talking,22,5087
+124,Loud Talking,23,5902
+125,Loud Talking,0,5246
+126,Loud Talking,1,3601
+127,Loud Talking,2,2292
+128,Loud Talking,3,1531
+129,Loud Talking,4,1074
+130,Loud Talking,5,726

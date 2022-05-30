@@ -1,0 +1,66 @@
+#my_dataviz {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	
+}
+
+.legend {
+	/* border: 1px solid orange; */
+	display: flex;
+	gap: 70px;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.legend > div {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.circle {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: orange;
+}
+
+#one {
+	background-color: #ffd800;
+}
+
+#two {
+	background-color: #bf79b4;
+}
+
+#three {
+	background-color: #527772;
+}
+
+#four {
+	background-color: #d9534f;
+}
+
+#five {
+	background-color: #20578a;
+}
+
+svg {
+	margin: auto;
+	display: block;
+}
+
+.links line {
+	stroke-opacity: 0.6;
+}
+
+.nodes circle {
+	stroke: #fff;
+	stroke-width: 0.5px;
+}

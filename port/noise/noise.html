@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Noise Complaints Map | Lun Hung</title>
+
+    <!-- JS Library -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <link rel="stylesheet" href="../../scss/style.css">
+</head>
+
+<body>
+    <div id="map"></div>
+    <h1 class="title">NYC 2021 Noise Complaints</h1>
+    <div class="filter-container">
+        <div class="filter-day">
+            <input type="button" class="all clicked" value="All" id="time-button">
+            <input type="button" class="day" value="Daytime" id="time-button">
+            <input type="button" class="night" value="Nighttime" id="time-button">
+        </div>
+    </div>
+    <div class="timeline-container" data-visible="true">
+        <div class="timeline-month">
+            <h1 class="month-content">January</h1>
+        </div>
+        <!-- <div class="timeline-pic">
+            <span class="ticks"></span>
+            <span class="timeline"></span>
+        </div> -->
+        <div class="timeline-btn">
+            <p class="play">PLAY</p>
+            <p class="backToAll">OVERALL</p>
+        </div>
+    </div>
+    <div class="legend-container">
+        <div class="legend-index">
+            <h2>MIN</h2>
+            <h2>MAX</h2>
+        </div>
+        <div class="legend-color-palette">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+            <span class="four"></span>
+            <span class="five"></span>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="month-chart-container" data-visible="true"></div>
+        <div class="day-chart-container" data-visible="false"></div>
+        <div class="day-type-chart-container" data-visible="false"></div>
+        <div class="night-chart-container" data-visible="false"></div>
+        <div class="night-type-chart-container" data-visible="false"></div>
+    </div>
+
+
+
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+    <script src="./map.js"></script>
+    <script src="./app.js"></script>
+    <script src="./chart.js"></script>
+    <script src="./chart-by-hour.js"></script>
+</body>

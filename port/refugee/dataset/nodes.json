@@ -1,0 +1,590 @@
+[
+  {
+    "id": "Afghanistan"
+  },
+  {
+    "id": "Albania"
+  },
+  {
+    "id": "Algeria"
+  },
+  {
+    "id": "Angola"
+  },
+  {
+    "id": "Anguilla"
+  },
+  {
+    "id": "Antigua and Barbuda"
+  },
+  {
+    "id": "Argentina"
+  },
+  {
+    "id": "Armenia"
+  },
+  {
+    "id": "Australia"
+  },
+  {
+    "id": "Austria"
+  },
+  {
+    "id": "Azerbaijan"
+  },
+  {
+    "id": "Bahamas"
+  },
+  {
+    "id": "Bahrain"
+  },
+  {
+    "id": "Bangladesh"
+  },
+  {
+    "id": "Barbados"
+  },
+  {
+    "id": "Belarus"
+  },
+  {
+    "id": "Belgium"
+  },
+  {
+    "id": "Belize"
+  },
+  {
+    "id": "Benin"
+  },
+  {
+    "id": "Bhutan"
+  },
+  {
+    "id": "Bolivia (Plurinational State of)"
+  },
+  {
+    "id": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "Botswana"
+  },
+  {
+    "id": "Brazil"
+  },
+  {
+    "id": "Brunei Darussalam"
+  },
+  {
+    "id": "Bulgaria"
+  },
+  {
+    "id": "Burkina Faso"
+  },
+  {
+    "id": "Burundi"
+  },
+  {
+    "id": "Cabo Verde"
+  },
+  {
+    "id": "Cambodia"
+  },
+  {
+    "id": "Cameroon"
+  },
+  {
+    "id": "Canada"
+  },
+  {
+    "id": "Cayman Islands"
+  },
+  {
+    "id": "Central African Rep."
+  },
+  {
+    "id": "Chad"
+  },
+  {
+    "id": "Chile"
+  },
+  {
+    "id": "China"
+  },
+  {
+    "id": "China"
+  },
+  {
+    "id": "Colombia"
+  },
+  {
+    "id": "Comoros"
+  },
+  {
+    "id": "Congo"
+  },
+  {
+    "id": "Costa Rica"
+  },
+  {
+    "id": "Cote d'Ivoire"
+  },
+  {
+    "id": "Croatia"
+  },
+  {
+    "id": "Cuba"
+  },
+  {
+    "id": "Curacao"
+  },
+  {
+    "id": "Cyprus"
+  },
+  {
+    "id": "Czechia"
+  },
+  {
+    "id": "Dem. People's Rep. of Korea"
+  },
+  {
+    "id": "Dem. Rep. of the Congo"
+  },
+  {
+    "id": "Denmark"
+  },
+  {
+    "id": "Djibouti"
+  },
+  {
+    "id": "Dominica"
+  },
+  {
+    "id": "Dominican Rep."
+  },
+  {
+    "id": "Ecuador"
+  },
+  {
+    "id": "Egypt"
+  },
+  {
+    "id": "El Salvador"
+  },
+  {
+    "id": "Equatorial Guinea"
+  },
+  {
+    "id": "Eritrea"
+  },
+  {
+    "id": "Estonia"
+  },
+  {
+    "id": "Eswatini"
+  },
+  {
+    "id": "Ethiopia"
+  },
+  {
+    "id": "Fiji"
+  },
+  {
+    "id": "Finland"
+  },
+  {
+    "id": "France"
+  },
+  {
+    "id": "Gabon"
+  },
+  {
+    "id": "Gambia"
+  },
+  {
+    "id": "Georgia"
+  },
+  {
+    "id": "Germany"
+  },
+  {
+    "id": "Ghana"
+  },
+  {
+    "id": "Greece"
+  },
+  {
+    "id": "Grenada"
+  },
+  {
+    "id": "Guadeloupe"
+  },
+  {
+    "id": "Guatemala"
+  },
+  {
+    "id": "Guinea"
+  },
+  {
+    "id": "Guinea-Bissau"
+  },
+  {
+    "id": "Guyana"
+  },
+  {
+    "id": "Haiti"
+  },
+  {
+    "id": "Holy See"
+  },
+  {
+    "id": "Honduras"
+  },
+  {
+    "id": "Hungary"
+  },
+  {
+    "id": "Iceland"
+  },
+  {
+    "id": "India"
+  },
+  {
+    "id": "Indonesia"
+  },
+  {
+    "id": "Iran (Islamic Rep. of)"
+  },
+  {
+    "id": "Iraq"
+  },
+  {
+    "id": "Ireland"
+  },
+  {
+    "id": "Israel"
+  },
+  {
+    "id": "Italy"
+  },
+  {
+    "id": "Jamaica"
+  },
+  {
+    "id": "Japan"
+  },
+  {
+    "id": "Jordan"
+  },
+  {
+    "id": "Kazakhstan"
+  },
+  {
+    "id": "Kenya"
+  },
+  {
+    "id": "Kuwait"
+  },
+  {
+    "id": "Kyrgyzstan"
+  },
+  {
+    "id": "Lao People's Dem. Rep."
+  },
+  {
+    "id": "Latvia"
+  },
+  {
+    "id": "Lebanon"
+  },
+  {
+    "id": "Lesotho"
+  },
+  {
+    "id": "Liberia"
+  },
+  {
+    "id": "Libya"
+  },
+  {
+    "id": "Liechtenstein"
+  },
+  {
+    "id": "Lithuania"
+  },
+  {
+    "id": "Luxembourg"
+  },
+  {
+    "id": "Madagascar"
+  },
+  {
+    "id": "Malawi"
+  },
+  {
+    "id": "Malaysia"
+  },
+  {
+    "id": "Maldives"
+  },
+  {
+    "id": "Mali"
+  },
+  {
+    "id": "Malta"
+  },
+  {
+    "id": "Mauritania"
+  },
+  {
+    "id": "Mauritius"
+  },
+  {
+    "id": "Mexico"
+  },
+  {
+    "id": "Micronesia (Federated States of)"
+  },
+  {
+    "id": "Mongolia"
+  },
+  {
+    "id": "Montenegro"
+  },
+  {
+    "id": "Morocco"
+  },
+  {
+    "id": "Mozambique"
+  },
+  {
+    "id": "Myanmar"
+  },
+  {
+    "id": "Namibia"
+  },
+  {
+    "id": "Nauru"
+  },
+  {
+    "id": "Nepal"
+  },
+  {
+    "id": "Netherlands"
+  },
+  {
+    "id": "New Zealand"
+  },
+  {
+    "id": "Nicaragua"
+  },
+  {
+    "id": "Niger"
+  },
+  {
+    "id": "Nigeria"
+  },
+  {
+    "id": "North Macedonia"
+  },
+  {
+    "id": "Norway"
+  },
+  {
+    "id": "Oman"
+  },
+  {
+    "id": "Pakistan"
+  },
+  {
+    "id": "Palestinian"
+  },
+  {
+    "id": "Panama"
+  },
+  {
+    "id": "Papua New Guinea"
+  },
+  {
+    "id": "Paraguay"
+  },
+  {
+    "id": "Peru"
+  },
+  {
+    "id": "Philippines"
+  },
+  {
+    "id": "Poland"
+  },
+  {
+    "id": "Portugal"
+  },
+  {
+    "id": "Qatar"
+  },
+  {
+    "id": "Rep. of Korea"
+  },
+  {
+    "id": "Rep. of Moldova"
+  },
+  {
+    "id": "Romania"
+  },
+  {
+    "id": "Russian Federation"
+  },
+  {
+    "id": "Rwanda"
+  },
+  {
+    "id": "Saint Kitts and Nevis"
+  },
+  {
+    "id": "Saint Lucia"
+  },
+  {
+    "id": "Saint Vincent and the Grenadines"
+  },
+  {
+    "id": "Samoa"
+  },
+  {
+    "id": "Saudi Arabia"
+  },
+  {
+    "id": "Senegal"
+  },
+  {
+    "id": "Serbia and Kosovo: S/RES/1244 (1999)"
+  },
+  {
+    "id": "Sierra Leone"
+  },
+  {
+    "id": "Singapore"
+  },
+  {
+    "id": "Sint Maarten (Dutch part)"
+  },
+  {
+    "id": "Slovakia"
+  },
+  {
+    "id": "Slovenia"
+  },
+  {
+    "id": "Solomon Islands"
+  },
+  {
+    "id": "Somalia"
+  },
+  {
+    "id": "South Africa"
+  },
+  {
+    "id": "South Sudan"
+  },
+  {
+    "id": "Spain"
+  },
+  {
+    "id": "Sri Lanka"
+  },
+  {
+    "id": "Stateless"
+  },
+  {
+    "id": "Sudan"
+  },
+  {
+    "id": "Suriname"
+  },
+  {
+    "id": "Sweden"
+  },
+  {
+    "id": "Switzerland"
+  },
+  {
+    "id": "Syrian Arab Rep."
+  },
+  {
+    "id": "Tajikistan"
+  },
+  {
+    "id": "Thailand"
+  },
+  {
+    "id": "Timor-Leste"
+  },
+  {
+    "id": "Togo"
+  },
+  {
+    "id": "Tonga"
+  },
+  {
+    "id": "Trinidad and Tobago"
+  },
+  {
+    "id": "Tunisia"
+  },
+  {
+    "id": "Turkey"
+  },
+  {
+    "id": "Turkmenistan"
+  },
+  {
+    "id": "Turks and Caicos Islands"
+  },
+  {
+    "id": "Uganda"
+  },
+  {
+    "id": "Ukraine"
+  },
+  {
+    "id": "United Arab Emirates"
+  },
+  {
+    "id": "United Kingdom of Great Britain and Northern Ireland"
+  },
+  {
+    "id": "United Rep. of Tanzania"
+  },
+  {
+    "id": "United States of America"
+  },
+  {
+    "id": "Unknown"
+  },
+  {
+    "id": "Uruguay"
+  },
+  {
+    "id": "Uzbekistan"
+  },
+  {
+    "id": "Vanuatu"
+  },
+  {
+    "id": "Venezuela (Bolivarian Republic of)"
+  },
+  {
+    "id": "Viet Nam"
+  },
+  {
+    "id": "Western Sahara"
+  },
+  {
+    "id": "Yemen"
+  },
+  {
+    "id": "Zambia"
+  },
+  {
+    "id": "Zimbabwe"
+  }
+]
